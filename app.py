@@ -1,4 +1,10 @@
-fname = str(input("enter your first name"))
-lname = str(input("enter your last name"))
+# find the lowest value in list
 
-print("Hii",fname,lname,"Thank you")
+list = [1,27,5,8,2,0]
+minValue = list[0]
+
+for i in list:
+  if i > minValue:
+    i = minValue
+    
+print('Lowest Value is', minValue)
